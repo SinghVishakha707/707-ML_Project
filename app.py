@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv("C:/Users/Admin/Downloads/707-ML_Project-main/Forest_fire.csv")
+data = pd.read_csv("Forest_fire.csv")
 data = np.array(data)
 
 X = data[1:, 1:-1]
